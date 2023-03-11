@@ -25,12 +25,12 @@ Write Your Mood & Feeling
 `POST to http://127.0.0.1:5000/write`
 
 Posting a JSON payload
-`
+```
 {
 	"mood": 0.2,
 	"feeling": "jeg hater skattetaten"
 }
-`
+```
 Write Batch-Data
 `POST to http://127.0.0.1:5000/batch_write`
 
